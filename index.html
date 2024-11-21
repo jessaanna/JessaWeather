@@ -3,34 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>JessaWeather</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="City" required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>New York</h1>
-        <p>
-          Tuesday 15:19, moderate rain <br />
-          Humidity: 87%, Wind: 7.2km/h
-        </p>
-      </div>
-      ☀️ 15°C
-      <div></div>
-    </main>
-    <footer>
-      Coded by
-      <a href="http://github.com/jessaanna" target="_blank">Jess Anderson</a>,
-      is open-sourced on
-      <a href="https://github.com/jessaanna/JessaWeather" target="_blank"
-        >Github</a
-      >, and hosted on
-      <a href="https://jessaweather.netlify.app/" target="_blank">Netlify</a>.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="City" required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>New York</h1>
+          <p>
+            Tuesday 15:19, moderate rain <br />
+            Humidity: 87%, Wind: 7.2km/h
+          </p>
+        </div>
+        <div>☀️ 15°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="http://github.com/jessaanna" target="_blank">Jess Anderson</a>,
+        is open-sourced on
+        <a href="https://github.com/jessaanna/JessaWeather" target="_blank"
+          >Github</a
+        >, and hosted on
+        <a href="https://jessaweather.netlify.app/" target="_blank">Netlify</a>.
+      </footer>
+    </div>
   </body>
 </html>
