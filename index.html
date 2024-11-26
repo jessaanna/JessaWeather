@@ -24,16 +24,19 @@
       <main>
         <div class="weather-app-data">
           <div class="weather-location-container">
-            <h1 class="weather-app-city" id="city">New York</h1>
+            <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              Tuesday 15:19, moderate rain <br />
-              Humidity: <span>87%</span>, Wind: <span>7.2km/h</span>
+              <span id="time"></span>,
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">☀️</div>
-            <div class="weather-app-temperature" id="temperature">15</div>
-            <div class="weather-app-unit">°C</div>
+            <div class="weather-app-icon" id="icon"></div>
+            <div class="weather-app-temperature" id="temperature"></div>
+            <div class="weatehr-app-unit">°C</div>
           </div>
         </div>
       </main>
