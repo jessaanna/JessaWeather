@@ -87,13 +87,15 @@ header {
   text-align: center;
   color: #ffffff;
   font-size: 16px;
-  line-height: 20px;
   margin-bottom: 10px;
+  font-weight: 100;
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
@@ -105,6 +107,7 @@ header {
 
 .weather-forecast-temperature {
   padding: 0 10px;
+  font-weight: 100;
 }
 
 footer {
