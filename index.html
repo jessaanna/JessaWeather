@@ -10,29 +10,30 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="City"
             required
             class="search-form-input"
+            id="search-form-input"
           />
-          <input type="submit" value="search" class="search-form-button" />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
         <div class="weather-app-data">
-          <div class="weather-details-container">
-            <h1 class="weather-city">New York</h1>
-            <p class="weather-details">
+          <div class="weather-location-container">
+            <h1 class="weather-app-city" id="weather-app-city">New York</h1>
+            <p class="weather-app-details">
               Tuesday 15:19, moderate rain <br />
               Humidity: <span>87%</span>, Wind: <span>7.2km/h</span>
             </p>
           </div>
-          <div class="weather-temp-container">
-            <div class="weather-icon">☀️</div>
-            <div class="weather-temp">15</div>
-            <div class="weather-units">°C</div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">☀️</div>
+            <div class="weather-app-tempurature">15</div>
+            <div class="weather-app-unit">°C</div>
           </div>
         </div>
       </main>
