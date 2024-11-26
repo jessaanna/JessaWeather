@@ -63,8 +63,8 @@ header {
   display: flex;
 }
 .weather-app-icon {
-  width: 100px;
-  padding-top: 5px;
+  width: 90px;
+  padding-top: 10px;
 }
 .weather-app-temperature {
   font-size: 80px;
